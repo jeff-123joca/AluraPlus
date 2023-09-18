@@ -2,7 +2,7 @@
     --branco-principal: #a59c9c;
     --cinza-secundario: #2fb9cb;
     --botao-azul: #051a34;
-    --cor-de-fundo: #edf0f8;
+    --cor-de-fundo: #040814
     --fonte-principal: 'Inter';
     --botao-azul-efeito: #78147a;
 }
@@ -33,7 +33,7 @@ body {
     display: grid;
     grid-template-columns: 50% 50%;
 }
-
+edf0f8
 .container__botao {
     background-color: var(--botao-azul);
     border-radius: 5px;
@@ -58,7 +58,7 @@ body {
     font-size: 28px;
     font-weight: 700;
 }
-
+edf0f8
 .container__imagem {
     margin: 1em 0 2em 0;
 }
@@ -77,7 +77,7 @@ body {
 }
 
 .descricao__titulo {
-    font-weight: 700;
+    font-weight: 700;edf0f8
     font-size: 48px;
     color: var(--branco-principal);
     margin-bottom: 0.1em;
@@ -99,6 +99,14 @@ body {
 .dispositivos__lista {
     display: flex;
     justify-content: center;
+
+    .descricao__texto {
+        color: var(--cinza-secundario);
+    }
+    
+    .secundario__botao {
+        display: inline-block;
+        margin-top: 1em;
     list-style-type: none;
     margin: 5em 0;
 }
